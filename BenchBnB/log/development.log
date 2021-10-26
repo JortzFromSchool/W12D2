@@ -1280,3 +1280,117 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 386ms (Views: 384.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-10-26 17:27:53 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jortz/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1073ms (Views: 1072.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 17:29:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 461ms (Views: 460.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 17:29:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 408ms (Views: 407.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 17:29:53 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 361ms (Views: 360.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:30:20 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 238ms (ActiveRecord: 11.0ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:31:01 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 219ms (ActiveRecord: 0.5ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:31:16 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 248ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:31:53 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 236ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 17:32:25 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 468ms (Views: 466.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:32:32 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 219ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 17:33:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:33:36 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 219ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2021-10-26 17:33:52 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 499ms (Views: 497.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for ::1 at 2021-10-26 17:33:54 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"jon", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jon"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:15
+No template found for Api::SessionsController#create, rendering head :no_content
+Completed 204 No Content in 213ms (ActiveRecord: 0.3ms)
+
+
